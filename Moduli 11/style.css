@@ -1,0 +1,17 @@
+h1{
+
+    text-align: center;
+    margin-bottom: 170px;
+    padding: 20px;
+    border:  dashed black 5px;
+    background-color: red;
+}
+
+h2{
+
+    background-color: green;
+}
+
+body{
+    background: url(../Moduli10/crime.jpg);
+}
