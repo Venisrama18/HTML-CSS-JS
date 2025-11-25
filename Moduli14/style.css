@@ -1,0 +1,55 @@
+ article p{
+    background-color: red;
+    color: white;
+    padding: 20px;
+}
+
+article div p{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+} 
+
+article ~ p{
+     background-color: green;
+    color: white;
+    padding: 20px;
+
+}
+
+<article > p{
+    background-color: BLUE;
+    color: white;
+    padding: 20px;
+
+}
+
+article + p{
+    background-color: orange;
+    color: white;
+
+}
+
+input:in-range{
+    border: 2px solid green;
+
+}
+
+input:out-of-range{
+    border: 2px solid red;
+
+
+}
+
+main p:last-child{
+
+    background-color: blueviolet;
+}
+
+a:hover{
+    background-color: blueviolet;
+    
+    
+}
+
