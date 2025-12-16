@@ -1,0 +1,66 @@
+.dropdown-content{
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    width: 150px;
+    padding: 15px;
+    background-color: blue;
+    box-shadow: 15px 15px 15px 15px black;
+} 
+
+.tooltip{
+    padding: 19px;
+    display: inline-block;
+    border: 2px dotted black;
+}
+
+.tooltip-text{
+    visibility: hidden;
+}
+
+.tooltip:hover .tooltip-text{
+    visibility: visible;
+    width: 100px;
+    background: black;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    position: absolute;
+    top: 140px;
+    left: 6%;
+    margin-left: -60px;
+}
+
+#example1{
+    width: 150px;
+    height: 150px;
+    background-image: url(/Moduli17/program.png);
+    border-radius: 50px;
+}
+
+#example2{
+    width: 150px;
+    height: 150px;
+    background-image: url(/Moduli17/program.png);
+    border-radius: 100px;
+}
+
+
+#example3{
+    width: 150px;
+    height: 150px;
+   background-image: url(/Moduli17/program.png);
+    border-radius: 50px 10px;
+}
+
+
+#example4{
+    width: 150px;
+    height: 150px;
+   background-image: url(/Moduli17/program.png);
+    border-radius: 50px 30px;
+}
+
+
