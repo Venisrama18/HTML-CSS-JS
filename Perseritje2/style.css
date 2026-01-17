@@ -5,6 +5,7 @@ body {
 nav ul{
     list-style-type: none;
     padding: 20px;
+    display: inline;
 }
 nav ul li a:hover{
     background-color: black;
