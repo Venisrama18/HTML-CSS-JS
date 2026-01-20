@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    background:lightblue ;
+}
+
+.container div{
+    padding: 20px;
+    margin: 20px;
+    background-color: darkcyan;
+    font-size: 35px;
+}
+.container div:nth-child(1){
+    flex-grow: 4;
+}
+
+.container div:nth-child(1){
+    order: 2;
+}
+.container div:nth-child(2){
+    order: 4;
+}
+.container div:nth-child(3){
+    order: 1;
+}
+.container div:nth-child(4){
+    order: 3;
+}
+
+.container2 {
+    display: flex;
+    background:lightblue ;
+    flex-direction: column;
+}
+
+.container2 div{
+    padding: 20px;
+    margin: 20px;
+    background-color: darkcyan;
+    font-size: 35px;
+}
