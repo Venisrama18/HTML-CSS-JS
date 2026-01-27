@@ -1,9 +1,9 @@
 #nav-bar ul{
     list-style-type: none;
     background-color: purple;
-    margin-bottom: 100px;
-    padding: 100px;
+    padding: 50px;
     overflow: hidden;
+
 }
 
 #nav-bar ul li{
@@ -19,25 +19,31 @@
     color: white;
     margin: 20px;
     text-decoration: none;
-    padding: 25px;
-}
-
-#nav-bar ul li a:hover{
-    background-color: grey;
 
 }
+#nav-bar ul span{
+    color: white;
+    
+}
 
-.second-page {
+h1{
+    text-align: center;
+}
+ 
+p{
+    text-align: center;
+}
+
+.main2 {
     background-color: lightseagreen;
+    
+   
 }
-
-
 
 .Gallery{
-   margin: 10px;
-    border: 1px solid black;
+   margin: 60px;
     float: left;
-    width: 450px;
+    width: 350px;
 } 
 
 .Gallery img{
@@ -46,8 +52,11 @@
 }
 
 .description{
-    padding:15px;
+    padding:25px;
     text-align: center;
 }
+
+
+
 
 
