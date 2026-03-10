@@ -100,3 +100,30 @@ var fullname = emri + " " + mbiemri;
 console.log(fullname);
 
 console.log(`Hello my name is ${emri}`);
+
+
+var test ="Pershendetje a po ndegjohemi test test";
+var test2 ="Po jemi duke te ndegjuar";
+
+var four = test + test2;
+
+console.log(`${four}`);
+
+var age = 24 ;
+
+console.log(age > 18 && age < 65 );
+
+var var1= 5;
+
+console.log(var1<4 || var1>5);
+
+var var2 = 10;
+var var3 = 12;
+
+console.log(!(var2 == var3));
+
+
+
+
+
+
