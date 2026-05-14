@@ -5,4 +5,10 @@ $(function(){
     $("#accordion").accordion();
 });
 
-$("#tabs").tabs()
+// $("#tabs").tabs()
+
+$(function(){
+    $("tabs").accordion({
+            collapsible:true
+    })
+})
