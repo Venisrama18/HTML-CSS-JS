@@ -1,7 +1,8 @@
-ul#select li{
-    background-color: lightgray;
+ul#sort li{
+    background-color: darkblue;
     margin-bottom: 15px;
     padding: 20px;
     color: white;
     list-style-type: none;
 }
+
